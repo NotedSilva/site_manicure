@@ -24,7 +24,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f9f8f8;
+    background-color: #e2e2e2;
     position: fixed;
     padding-left: 30rem;
 }
@@ -127,3 +127,50 @@ html {
     background-color: #b4b1d6;
     color: #9186c6;
 }
+
+/* Sobre nós */
+
+.sobre-nos {
+    background-color: #b4b1d6;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: #FDF3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.sobre-nos img {
+    width: 600px;
+    height: 350px;
+    margin-top: 21rem;
+    margin-left: 20rem;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+    margin-top: 10rem;
+}
+
+.contentsobre p {
+    text-align: center;
+    font-size: 2rem;
+    width: 600px;
+}
+
+/* Serviços */
+
