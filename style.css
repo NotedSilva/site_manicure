@@ -14,6 +14,7 @@ html {
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* Menu inicial */
@@ -40,6 +41,7 @@ html {
 .logo h3 {
     color: #cab0e5;
     font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .logo img {
@@ -60,7 +62,7 @@ html {
     color: #cab0e5;
     font-size: 1.8rem;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     transition: all 200ms ease-in;
 }
 
@@ -77,11 +79,11 @@ html {
 .first-section {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(./img/background.png);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(./img/fundo.3.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 30px;
+    background-position-y: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,9 +119,10 @@ html {
     background-color: #9186c6;
     border-radius: 10px;
     color: #ffe9f4;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 2rem;
     transition: all 250ms ease-in;
+    border-radius: 50px;
 }
 
 .btn button:hover {
@@ -133,7 +136,7 @@ html {
 .sobre-nos {
     background-color: #b4b1d6;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     color: #FDF3F3;
     display: flex;
     align-items: center;
@@ -144,8 +147,9 @@ html {
 .sobre-nos img {
     width: 600px;
     height: 350px;
-    margin-top: 21rem;
+    margin-top: 32rem;
     margin-left: 20rem;
+    filter: brightness(85%);
 }
 
 .main {
@@ -161,15 +165,35 @@ html {
 }
 
 .contentsobre h2 {
-    font-size: 6rem;
-    margin-bottom: 1.5rem;
-    margin-top: 10rem;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
 }
 
 .contentsobre p {
     text-align: center;
     font-size: 2rem;
     width: 600px;
+    padding: 1rem;
+}
+
+.primeiro-bloco {
+    
+    border: solid 5px #6d446a;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+.segundo-bloco {
+    border: solid 5px #6d446a;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+.terceiro-bloco {
+    border: solid 5px #6d446a;
+    border-radius: 50px;
+    padding: 1rem;
 }
 
 /* Serviços */
