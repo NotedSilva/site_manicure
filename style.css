@@ -64,6 +64,7 @@ html {
     text-transform: uppercase;
     font-weight: 700;
     transition: all 200ms ease-in;
+    text-decoration: none;
 }
 
 .content .lista-menu li a:hover {
@@ -148,7 +149,7 @@ html {
     width: 600px;
     height: 350px;
     margin-top: 32rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
     filter: brightness(85%);
 }
 
@@ -197,4 +198,25 @@ html {
 }
 
 /* Serviços */
+
+.servicos {
+    background-color: #F1DEDE;
+    width: 100%;
+    padding-bottom: 3rem;
+    color: #FDF3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.servicos img {
+    width: 550px;
+    height: 610px;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    filter: brightness(85%);
+}
+
+
 
