@@ -313,3 +313,32 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .main {
+      display: block;
+    }
+    .sobre-nos img {
+      margin-top: 10px;
+      margin-left: 0;
+      width: 500px;
+      height: 280px;
+      margin-left: 6rem;
+    }
+    .contentsobre h2 {
+      font-size: 4rem;
+    }
+  }
+  @media screen and (max-width: 980px) {
+    html {
+      font-size: 50%;
+    }
+    .first-section {
+      background-position-y: 100px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 43%;
+    }
+}
